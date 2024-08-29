@@ -1,0 +1,2 @@
+import{p as r,b as e}from"./p-e4e8511b.js";export{s as setNonce}from"./p-e4e8511b.js";import{g as o}from"./p-e1255160.js";var t=()=>{const e=import.meta.url;const o={};if(e!==""){o.resourcesUrl=new URL(".",e).href}return r(o)};t().then((async r=>{await o();return e([["p-d9beefb0",[[1,"rf-hotel"]]],["p-ce3c82a2",[[1,"rf-property"]]],["p-bfb596e9",[[1,"rf-display-hotel"],[1,"rf-facilities"],[1,"rf-navbar"],[1,"rf-photo"],[1,"rf-rooms"]]]],r)}));
+//# sourceMappingURL=exposed-property.esm.js.map
