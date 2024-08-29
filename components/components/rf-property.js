@@ -1,4 +1,4 @@
-import { p as proxyCustomElement, H } from './p-50d3ff30.js';
+import { p as proxyCustomElement, H } from './p-b4114b3c.js';
 import { h } from './p-8011f781.js';
 
 const Property = /*@__PURE__*/ proxyCustomElement(class Property extends H {
@@ -40,7 +40,7 @@ const Property = /*@__PURE__*/ proxyCustomElement(class Property extends H {
         this.sendData();
     }
     render() {
-        return h("div", { key: '405ac5d3312e667bcd867c495a0a247992311162' }, "hello");
+        return h("div", { key: '5334fc217f89ad49fbcb7e46ae730e29d4bab322' }, "hello");
     }
 }, [1, "rf-property"]);
 function defineCustomElement$1() {

@@ -1,4 +1,4 @@
-import { P as Photo, d as defineCustomElement$1 } from './p-5672e3f9.js';
+import { P as Photo, d as defineCustomElement$1 } from './p-c5fe848a.js';
 
 const RfPhoto = Photo;
 const defineCustomElement = defineCustomElement$1;

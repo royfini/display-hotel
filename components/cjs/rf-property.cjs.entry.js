@@ -2,7 +2,7 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-const index = require('./index-a84343ce.js');
+const index = require('./index-cec488c7.js');
 
 const Property = class {
     constructor(hostRef) {
@@ -41,7 +41,7 @@ const Property = class {
         this.sendData();
     }
     render() {
-        return index.h("div", { key: '405ac5d3312e667bcd867c495a0a247992311162' }, "hello");
+        return index.h("div", { key: '5334fc217f89ad49fbcb7e46ae730e29d4bab322' }, "hello");
     }
 };
 

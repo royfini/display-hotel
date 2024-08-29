@@ -33,7 +33,7 @@ export class Property {
         this.sendData();
     }
     render() {
-        return h("div", { key: '405ac5d3312e667bcd867c495a0a247992311162' }, "hello");
+        return h("div", { key: '5334fc217f89ad49fbcb7e46ae730e29d4bab322' }, "hello");
     }
     static get is() { return "rf-property"; }
     static get encapsulation() { return "shadow"; }

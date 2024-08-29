@@ -1,4 +1,4 @@
-import { N as Navbar, d as defineCustomElement$1 } from './p-8efdc729.js';
+import { N as Navbar, d as defineCustomElement$1 } from './p-9cabdefd.js';
 
 const RfNavbar = Navbar;
 const defineCustomElement = defineCustomElement$1;

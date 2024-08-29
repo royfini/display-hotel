@@ -1,4 +1,4 @@
-import { r as registerInstance, h } from './index-20b620b3.js';
+import { r as registerInstance, h } from './index-516e205b.js';
 
 const Property = class {
     constructor(hostRef) {
@@ -37,7 +37,7 @@ const Property = class {
         this.sendData();
     }
     render() {
-        return h("div", { key: '405ac5d3312e667bcd867c495a0a247992311162' }, "hello");
+        return h("div", { key: '5334fc217f89ad49fbcb7e46ae730e29d4bab322' }, "hello");
     }
 };
 

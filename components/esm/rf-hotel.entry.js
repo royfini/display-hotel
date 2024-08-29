@@ -1,11 +1,11 @@
-import { r as registerInstance, h } from './index-20b620b3.js';
+import { r as registerInstance, h } from './index-516e205b.js';
 
 const Hotel = class {
     constructor(hostRef) {
         registerInstance(this, hostRef);
     }
     render() {
-        return (h("div", { key: 'e564c3ed7e3d78d68ccf3d8f68b8f3ea0d05a1c0' }));
+        return (h("div", { key: '19f54bbf5f3a9d5ea930b643ab6dd3ba1b212ca5' }));
     }
 };
 

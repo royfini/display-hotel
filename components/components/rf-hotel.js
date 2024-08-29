@@ -1,4 +1,4 @@
-import { p as proxyCustomElement, H } from './p-50d3ff30.js';
+import { p as proxyCustomElement, H } from './p-b4114b3c.js';
 import { h } from './p-8011f781.js';
 
 const Hotel = /*@__PURE__*/ proxyCustomElement(class Hotel extends H {
@@ -8,7 +8,7 @@ const Hotel = /*@__PURE__*/ proxyCustomElement(class Hotel extends H {
         this.__attachShadow();
     }
     render() {
-        return (h("div", { key: 'e564c3ed7e3d78d68ccf3d8f68b8f3ea0d05a1c0' }));
+        return (h("div", { key: '19f54bbf5f3a9d5ea930b643ab6dd3ba1b212ca5' }));
     }
 }, [1, "rf-hotel"]);
 function defineCustomElement$1() {

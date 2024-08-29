@@ -6,11 +6,18 @@
  */
 import { HTMLStencilElement, JSXBase } from "./stencil-public-runtime";
 export namespace Components {
+    interface RfCarousel {
+        "images": string[];
+        "roomId": number;
+    }
     interface RfDisplayHotel {
     }
     interface RfFacilities {
     }
     interface RfHotel {
+    }
+    interface RfModal {
+        "roomId": number;
     }
     interface RfNavbar {
     }
@@ -21,7 +28,36 @@ export namespace Components {
     interface RfRooms {
     }
 }
+export interface RfCarouselCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLRfCarouselElement;
+}
+export interface RfModalCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLRfModalElement;
+}
+export interface RfRoomsCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLRfRoomsElement;
+}
 declare global {
+    interface HTMLRfCarouselElementEventMap {
+        "rf_show": number;
+    }
+    interface HTMLRfCarouselElement extends Components.RfCarousel, HTMLStencilElement {
+        addEventListener<K extends keyof HTMLRfCarouselElementEventMap>(type: K, listener: (this: HTMLRfCarouselElement, ev: RfCarouselCustomEvent<HTMLRfCarouselElementEventMap[K]>) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLRfCarouselElementEventMap>(type: K, listener: (this: HTMLRfCarouselElement, ev: RfCarouselCustomEvent<HTMLRfCarouselElementEventMap[K]>) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
+    }
+    var HTMLRfCarouselElement: {
+        prototype: HTMLRfCarouselElement;
+        new (): HTMLRfCarouselElement;
+    };
     interface HTMLRfDisplayHotelElement extends Components.RfDisplayHotel, HTMLStencilElement {
     }
     var HTMLRfDisplayHotelElement: {
@@ -39,6 +75,23 @@ declare global {
     var HTMLRfHotelElement: {
         prototype: HTMLRfHotelElement;
         new (): HTMLRfHotelElement;
+    };
+    interface HTMLRfModalElementEventMap {
+        "rf_hide": boolean;
+    }
+    interface HTMLRfModalElement extends Components.RfModal, HTMLStencilElement {
+        addEventListener<K extends keyof HTMLRfModalElementEventMap>(type: K, listener: (this: HTMLRfModalElement, ev: RfModalCustomEvent<HTMLRfModalElementEventMap[K]>) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLRfModalElementEventMap>(type: K, listener: (this: HTMLRfModalElement, ev: RfModalCustomEvent<HTMLRfModalElementEventMap[K]>) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
+    }
+    var HTMLRfModalElement: {
+        prototype: HTMLRfModalElement;
+        new (): HTMLRfModalElement;
     };
     interface HTMLRfNavbarElement extends Components.RfNavbar, HTMLStencilElement {
     }
@@ -58,16 +111,29 @@ declare global {
         prototype: HTMLRfPropertyElement;
         new (): HTMLRfPropertyElement;
     };
+    interface HTMLRfRoomsElementEventMap {
+        "rf_sendId": number;
+    }
     interface HTMLRfRoomsElement extends Components.RfRooms, HTMLStencilElement {
+        addEventListener<K extends keyof HTMLRfRoomsElementEventMap>(type: K, listener: (this: HTMLRfRoomsElement, ev: RfRoomsCustomEvent<HTMLRfRoomsElementEventMap[K]>) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLRfRoomsElementEventMap>(type: K, listener: (this: HTMLRfRoomsElement, ev: RfRoomsCustomEvent<HTMLRfRoomsElementEventMap[K]>) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
     }
     var HTMLRfRoomsElement: {
         prototype: HTMLRfRoomsElement;
         new (): HTMLRfRoomsElement;
     };
     interface HTMLElementTagNameMap {
+        "rf-carousel": HTMLRfCarouselElement;
         "rf-display-hotel": HTMLRfDisplayHotelElement;
         "rf-facilities": HTMLRfFacilitiesElement;
         "rf-hotel": HTMLRfHotelElement;
+        "rf-modal": HTMLRfModalElement;
         "rf-navbar": HTMLRfNavbarElement;
         "rf-photo": HTMLRfPhotoElement;
         "rf-property": HTMLRfPropertyElement;
@@ -75,11 +141,20 @@ declare global {
     }
 }
 declare namespace LocalJSX {
+    interface RfCarousel {
+        "images"?: string[];
+        "onRf_show"?: (event: RfCarouselCustomEvent<number>) => void;
+        "roomId"?: number;
+    }
     interface RfDisplayHotel {
     }
     interface RfFacilities {
     }
     interface RfHotel {
+    }
+    interface RfModal {
+        "onRf_hide"?: (event: RfModalCustomEvent<boolean>) => void;
+        "roomId"?: number;
     }
     interface RfNavbar {
     }
@@ -88,11 +163,14 @@ declare namespace LocalJSX {
     interface RfProperty {
     }
     interface RfRooms {
+        "onRf_sendId"?: (event: RfRoomsCustomEvent<number>) => void;
     }
     interface IntrinsicElements {
+        "rf-carousel": RfCarousel;
         "rf-display-hotel": RfDisplayHotel;
         "rf-facilities": RfFacilities;
         "rf-hotel": RfHotel;
+        "rf-modal": RfModal;
         "rf-navbar": RfNavbar;
         "rf-photo": RfPhoto;
         "rf-property": RfProperty;
@@ -103,9 +181,11 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "rf-carousel": LocalJSX.RfCarousel & JSXBase.HTMLAttributes<HTMLRfCarouselElement>;
             "rf-display-hotel": LocalJSX.RfDisplayHotel & JSXBase.HTMLAttributes<HTMLRfDisplayHotelElement>;
             "rf-facilities": LocalJSX.RfFacilities & JSXBase.HTMLAttributes<HTMLRfFacilitiesElement>;
             "rf-hotel": LocalJSX.RfHotel & JSXBase.HTMLAttributes<HTMLRfHotelElement>;
+            "rf-modal": LocalJSX.RfModal & JSXBase.HTMLAttributes<HTMLRfModalElement>;
             "rf-navbar": LocalJSX.RfNavbar & JSXBase.HTMLAttributes<HTMLRfNavbarElement>;
             "rf-photo": LocalJSX.RfPhoto & JSXBase.HTMLAttributes<HTMLRfPhotoElement>;
             "rf-property": LocalJSX.RfProperty & JSXBase.HTMLAttributes<HTMLRfPropertyElement>;

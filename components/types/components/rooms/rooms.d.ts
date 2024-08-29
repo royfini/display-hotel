@@ -1,3 +1,4 @@
+import { EventEmitter } from '../../stencil-public-runtime';
 export declare class Rooms {
     element: HTMLElement;
     rooms: {
@@ -126,5 +127,7 @@ export declare class Rooms {
         description: string;
     }[];
     componentDidLoad(): void;
+    rf_sendId: EventEmitter<number>;
+    sendId(id: number): void;
     render(): any;
 }

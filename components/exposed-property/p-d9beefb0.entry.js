@@ -1,2 +1,0 @@
-import{r as e,h as r}from"./p-e4e8511b.js";const c=class{constructor(r){e(this,r)}render(){return r("div",{key:"e564c3ed7e3d78d68ccf3d8f68b8f3ea0d05a1c0"})}};export{c as rf_hotel};
-//# sourceMappingURL=p-d9beefb0.entry.js.map

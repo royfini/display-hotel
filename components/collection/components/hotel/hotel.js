@@ -1,7 +1,7 @@
 import { h } from "@stencil/core/internal";
 export class Hotel {
     render() {
-        return (h("div", { key: 'e564c3ed7e3d78d68ccf3d8f68b8f3ea0d05a1c0' }));
+        return (h("div", { key: '19f54bbf5f3a9d5ea930b643ab6dd3ba1b212ca5' }));
     }
     static get is() { return "rf-hotel"; }
     static get encapsulation() { return "shadow"; }
