@@ -1,5 +1,5 @@
 import { p as proxyCustomElement, H, c as createEvent, h } from './p-b4114b3c.js';
-import { t as tailwind } from './p-70ce61d8.js';
+import { t as tailwind } from './p-aa5b55de.js';
 
 const languages = [
     {
@@ -435,4 +435,4 @@ defineCustomElement();
 
 export { Popup as P, defineCustomElement as d };
 
-//# sourceMappingURL=p-cae4f001.js.map
+//# sourceMappingURL=p-5485875f.js.map

@@ -1,5 +1,5 @@
 import { p as proxyCustomElement, H, c as createEvent, h } from './p-b4114b3c.js';
-import { t as tailwind } from './p-70ce61d8.js';
+import { t as tailwind } from './p-aa5b55de.js';
 
 const Carousel = /*@__PURE__*/ proxyCustomElement(class Carousel extends H {
     constructor() {
@@ -64,4 +64,4 @@ defineCustomElement();
 
 export { Carousel as C, defineCustomElement as d };
 
-//# sourceMappingURL=p-be0addb1.js.map
+//# sourceMappingURL=p-9b8484e2.js.map

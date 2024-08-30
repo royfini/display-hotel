@@ -1,13 +1,13 @@
 import { p as proxyCustomElement, H } from './p-b4114b3c.js';
 import { h } from './p-8011f781.js';
-import { t as tailwind } from './p-70ce61d8.js';
-import { d as defineCustomElement$8 } from './p-be0addb1.js';
-import { d as defineCustomElement$7 } from './p-a4e5983f.js';
-import { d as defineCustomElement$6 } from './p-4da0880c.js';
-import { d as defineCustomElement$5 } from './p-521b4230.js';
-import { d as defineCustomElement$4 } from './p-cb1bf0aa.js';
-import { d as defineCustomElement$3 } from './p-cae4f001.js';
-import { d as defineCustomElement$2 } from './p-7c525739.js';
+import { t as tailwind } from './p-aa5b55de.js';
+import { d as defineCustomElement$8 } from './p-9b8484e2.js';
+import { d as defineCustomElement$7 } from './p-3fc9ba92.js';
+import { d as defineCustomElement$6 } from './p-316d5947.js';
+import { d as defineCustomElement$5 } from './p-1f5f91b7.js';
+import { d as defineCustomElement$4 } from './p-fc1a0859.js';
+import { d as defineCustomElement$3 } from './p-5485875f.js';
+import { d as defineCustomElement$2 } from './p-55bf82af.js';
 
 const DisplayHotel = /*@__PURE__*/ proxyCustomElement(class DisplayHotel extends H {
     constructor() {

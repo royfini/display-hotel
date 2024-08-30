@@ -1,6 +1,6 @@
 import { p as proxyCustomElement, H } from './p-b4114b3c.js';
 import { h } from './p-8011f781.js';
-import { t as tailwind } from './p-70ce61d8.js';
+import { t as tailwind } from './p-aa5b55de.js';
 import { d as data } from './p-2240281a.js';
 
 const Facilities = /*@__PURE__*/ proxyCustomElement(class Facilities extends H {
@@ -57,4 +57,4 @@ defineCustomElement();
 
 export { Facilities as F, defineCustomElement as d };
 
-//# sourceMappingURL=p-a4e5983f.js.map
+//# sourceMappingURL=p-3fc9ba92.js.map
