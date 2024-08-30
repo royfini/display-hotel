@@ -1,3 +1,4 @@
+import { EventEmitter } from '../../stencil-public-runtime';
 export declare class Navbar {
     element: HTMLElement;
     hotel: {
@@ -353,5 +354,10 @@ export declare class Navbar {
         };
     };
     componentDidLoad(): void;
+    rf_show_popup: EventEmitter<boolean>;
+    show(): void;
+    language: string;
+    currency: string;
+    getData(event: CustomEvent): void;
     render(): any;
 }

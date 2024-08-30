@@ -40,7 +40,7 @@ const Property = /*@__PURE__*/ proxyCustomElement(class Property extends H {
         this.sendData();
     }
     render() {
-        return h("div", { key: '5334fc217f89ad49fbcb7e46ae730e29d4bab322' }, "hello");
+        return h("div", { key: 'afe034e7b102d5eac1fc2804e7ce8c22d8de21f7' }, "hello");
     }
 }, [1, "rf-property"]);
 function defineCustomElement$1() {

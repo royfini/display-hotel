@@ -1,4 +1,4 @@
-import { C as Carousel, d as defineCustomElement$1 } from './p-759fb32a.js';
+import { C as Carousel, d as defineCustomElement$1 } from './p-be0addb1.js';
 
 const RfCarousel = Carousel;
 const defineCustomElement = defineCustomElement$1;

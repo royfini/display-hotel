@@ -6,5 +6,8 @@ export declare class DisplayHotel {
     show(event: CustomEvent): void;
     myId: number;
     getId(event: CustomEvent): void;
+    popup: boolean;
+    showPopup(event: CustomEvent): void;
+    hidePopup(event: CustomEvent): void;
     render(): any;
 }

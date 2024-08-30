@@ -1,7 +1,7 @@
 import { p as proxyCustomElement, H, c as createEvent, h } from './p-b4114b3c.js';
-import { t as tailwind } from './p-f713899e.js';
+import { t as tailwind } from './p-70ce61d8.js';
 import { d as data } from './p-2240281a.js';
-import { d as defineCustomElement$1 } from './p-759fb32a.js';
+import { d as defineCustomElement$1 } from './p-be0addb1.js';
 
 const Modal = /*@__PURE__*/ proxyCustomElement(class Modal extends H {
     constructor() {
@@ -62,4 +62,4 @@ defineCustomElement();
 
 export { Modal as M, defineCustomElement as d };
 
-//# sourceMappingURL=p-4c0d3561.js.map
+//# sourceMappingURL=p-4da0880c.js.map

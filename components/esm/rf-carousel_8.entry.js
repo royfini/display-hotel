@@ -1,6 +1,6 @@
 import { r as registerInstance, c as createEvent, h, g as getElement } from './index-516e205b.js';
 
-const outputCss = "*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb;}::before,::after{--tw-content:''}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent;}body{margin:0;line-height:inherit;}hr{height:0;color:inherit;border-top-width:1px;}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em;}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse;}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0;}button,select{text-transform:none}button,input:where([type='button']),input:where([type='reset']),input:where([type='submit']){-webkit-appearance:button;background-color:transparent;background-image:none;}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type='search']{-webkit-appearance:textfield;outline-offset:-2px;}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af;}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af;}button,[role=\"button\"]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle;}img,video{max-width:100%;height:auto}[hidden]{display:none}*,::before,::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scroll-snap-strictness:proximity;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;}::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scroll-snap-strictness:proximity;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.bottom-0{bottom:0px}.left-0{left:0px}.left-1{left:0.25rem}.right-1{right:0.25rem}.top-0{top:0px}.top-1\\/2{top:50%}.z-10{z-index:10}.z-50{z-index:50}.z-30{z-index:30}.m-auto{margin:auto}.mx-0{margin-left:0px;margin-right:0px}.my-4{margin-top:1rem;margin-bottom:1rem}.mb-10{margin-bottom:2.5rem}.mb-4{margin-bottom:1rem}.mt-10{margin-top:2.5rem}.mt-20{margin-top:5rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-3\\/4{height:75%}.h-72{height:18rem}.h-full{height:100%}.w-1\\/2{width:50%}.w-3\\/4{width:75%}.w-full{width:100%}.-translate-y-1\\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-not-allowed{cursor:not-allowed}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-10{gap:2.5rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-x-2{-moz-column-gap:0.5rem;column-gap:0.5rem}.gap-x-4{-moz-column-gap:1rem;column-gap:1rem}.gap-y-1{row-gap:0.25rem}.gap-y-2{row-gap:0.5rem}.overflow-hidden{overflow:hidden}.overflow-y-scroll{overflow-y:scroll}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175 / var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-opacity-70{--tw-bg-opacity:0.7}.object-cover{-o-object-fit:cover;object-fit:cover}.p-1{padding:0.25rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.font-semibold{font-weight:600}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.opacity-50{opacity:0.5}.opacity-75{opacity:0.75}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}@media (min-width: 768px){.md\\:block{display:block}.md\\:grid{display:grid}.md\\:h-3\\/4{height:75%}.md\\:h-48{height:12rem}.md\\:w-1\\/2{width:50%}.md\\:w-1\\/4{width:25%}.md\\:w-3\\/4{width:75%}.md\\:flex-row{flex-direction:row}.md\\:justify-between{justify-content:space-between}}@media (min-width: 1024px){.lg\\:mx-20{margin-left:5rem;margin-right:5rem}.lg\\:flex{display:flex}.lg\\:w-3\\/4{width:75%}.lg\\:px-20{padding-left:5rem;padding-right:5rem}}@media (min-width: 1280px){.xl\\:mx-60{margin-left:15rem;margin-right:15rem}.xl\\:w-1\\/2{width:50%}.xl\\:px-60{padding-left:15rem;padding-right:15rem}}";
+const outputCss = "*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb;}::before,::after{--tw-content:''}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent;}body{margin:0;line-height:inherit;}hr{height:0;color:inherit;border-top-width:1px;}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em;}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse;}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0;}button,select{text-transform:none}button,input:where([type='button']),input:where([type='reset']),input:where([type='submit']){-webkit-appearance:button;background-color:transparent;background-image:none;}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type='search']{-webkit-appearance:textfield;outline-offset:-2px;}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af;}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af;}button,[role=\"button\"]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle;}img,video{max-width:100%;height:auto}[hidden]{display:none}*,::before,::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scroll-snap-strictness:proximity;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;}::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scroll-snap-strictness:proximity;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.bottom-0{bottom:0px}.left-0{left:0px}.left-1{left:0.25rem}.left-4{left:1rem}.right-1{right:0.25rem}.top-0{top:0px}.top-1\\/2{top:50%}.z-10{z-index:10}.z-30{z-index:30}.z-50{z-index:50}.m-auto{margin:auto}.mx-0{margin-left:0px;margin-right:0px}.my-4{margin-top:1rem;margin-bottom:1rem}.mb-10{margin-bottom:2.5rem}.mb-4{margin-bottom:1rem}.mt-10{margin-top:2.5rem}.mt-20{margin-top:5rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-3\\/4{height:75%}.h-5{height:1.25rem}.h-72{height:18rem}.h-full{height:100%}.w-1\\/2{width:50%}.w-3\\/4{width:75%}.w-5{width:1.25rem}.w-full{width:100%}.-translate-y-1\\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-3{--tw-translate-y:-0.75rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-not-allowed{cursor:not-allowed}.cursor-pointer{cursor:pointer}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-10{gap:2.5rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.gap-x-2{-moz-column-gap:0.5rem;column-gap:0.5rem}.gap-x-4{-moz-column-gap:1rem;column-gap:1rem}.gap-y-1{row-gap:0.25rem}.gap-y-2{row-gap:0.5rem}.overflow-hidden{overflow:hidden}.overflow-y-scroll{overflow-y:scroll}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.border-2{border-width:2px}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175 / var(--tw-border-opacity))}.border-red-800{--tw-border-opacity:1;border-color:rgb(153 27 27 / var(--tw-border-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175 / var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity))}.bg-red-800{--tw-bg-opacity:1;background-color:rgb(153 27 27 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-red-200{--tw-bg-opacity:1;background-color:rgb(254 202 202 / var(--tw-bg-opacity))}.bg-opacity-70{--tw-bg-opacity:0.7}.object-cover{-o-object-fit:cover;object-fit:cover}.p-1{padding:0.25rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-2{padding:0.5rem}.px-1{padding-left:0.25rem;padding-right:0.25rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-semibold{font-weight:600}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.opacity-50{opacity:0.5}.opacity-75{opacity:0.75}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:rounded-md:hover{border-radius:0.375rem}.hover\\:rounded-lg:hover{border-radius:0.5rem}.hover\\:rounded-xl:hover{border-radius:0.75rem}.hover\\:rounded-full:hover{border-radius:9999px}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202 / var(--tw-bg-opacity))}.hover\\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.active\\:bg-red-200:active{--tw-bg-opacity:1;background-color:rgb(254 202 202 / var(--tw-bg-opacity))}@media (min-width: 768px){.md\\:block{display:block}.md\\:flex{display:flex}.md\\:grid{display:grid}.md\\:h-3\\/4{height:75%}.md\\:h-48{height:12rem}.md\\:w-1\\/2{width:50%}.md\\:w-1\\/4{width:25%}.md\\:w-3\\/4{width:75%}.md\\:flex-row{flex-direction:row}.md\\:justify-between{justify-content:space-between}}@media (min-width: 1024px){.lg\\:mx-20{margin-left:5rem;margin-right:5rem}.lg\\:w-1\\/2{width:50%}.lg\\:w-3\\/4{width:75%}.lg\\:px-20{padding-left:5rem;padding-right:5rem}}@media (min-width: 1280px){.xl\\:mx-60{margin-left:15rem;margin-right:15rem}.xl\\:w-1\\/2{width:50%}.xl\\:w-1\\/3{width:33.333333%}.xl\\:px-60{padding-left:15rem;padding-right:15rem}}";
 const tailwind = outputCss;
 
 const Carousel = class {
@@ -49,6 +49,7 @@ const DisplayHotel = class {
         registerInstance(this, hostRef);
         this.modal = false;
         this.myId = undefined;
+        this.popup = false;
     }
     componentDidLoad() {
         const shadowRoot = this.element.shadowRoot;
@@ -69,8 +70,14 @@ const DisplayHotel = class {
         this.myId = event.detail;
         this.modal = true;
     }
+    showPopup(event) {
+        this.popup = event.detail;
+    }
+    hidePopup(event) {
+        this.popup = event.detail;
+    }
     render() {
-        return (h("div", { key: '57d9d9632958d9bfc5cd1b65474aefaaa6cb889f', class: 'flex flex-col mx-0 lg:mx-20 xl:mx-60' }, h("rf-navbar", { key: '939a55959fa0f2177a34faa73e49557150ae5456' }), h("rf-photo", { key: 'f46d24cb19a08397680a1a51d70f1b59b105e8cb' }), h("rf-rooms", { key: '4c1e2dc4af91e04feefb6ccb7641f0398bb27f2f' }), this.modal ? h("rf-modal", { roomId: this.myId }) : null, h("rf-facilities", { key: 'e4fb714d7fa4c782b9397bc83b2f5f0dd2b21885' })));
+        return (h("div", { key: 'a8d2fb931dee930043c1d9c1ab632c6919a8226b', class: 'flex flex-col mx-0 lg:mx-20 xl:mx-60' }, h("rf-navbar", { key: 'aef4dcc66bdaf2a68f214cf98b8eb757eac30133' }), h("rf-photo", { key: '5061fe0d5ff58f7fa18972a36b5de356dd6e2e1e' }), h("rf-rooms", { key: '5fe0f6c66ee564bed85ca2778e9d399dbeb91d88' }), this.modal ? h("rf-modal", { roomId: this.myId }) : null, this.popup ? h("rf-popup", null) : null, h("rf-facilities", { key: '132dcb11f0af3bbc6acf43f3e1ec1b93ee8c50ba' })));
     }
     get element() { return getElement(this); }
 };
@@ -2046,7 +2053,10 @@ const Modal = class {
 const Navbar = class {
     constructor(hostRef) {
         registerInstance(this, hostRef);
+        this.rf_show_popup = createEvent(this, "rf_show_popup", 7);
         this.hotel = data.My_Result;
+        this.language = 'English';
+        this.currency = 'US$';
     }
     componentDidLoad() {
         const shadowRoot = this.element.shadowRoot;
@@ -2056,8 +2066,16 @@ const Navbar = class {
             shadowRoot.appendChild(style);
         }
     }
+    show() {
+        console.log('hello');
+        this.rf_show_popup.emit(true);
+    }
+    getData(event) {
+        this.language = event.detail.lang;
+        this.currency = event.detail.cur;
+    }
     render() {
-        return (h("nav", { key: '91f5e41ba6275ec046d32397ae289ca0108712af', class: "flex flex-row justify-between px-4 lg:px-20 xl:px-60 py-3 fixed top-0 left-0 w-full bg-white z-10" }, h("div", { key: '1da137fdbafa776e88f294f6751c4a13ec768e00', class: 'flex flex-col' }, h("div", { key: '119c3050220d8a4df8d187a7d32adca61bfcccf4', class: 'font-bold text-xl' }, this.hotel.name), h("small", { key: '106975766518dc494b8bbe79cf23879ccb0a3281', class: 'text-gray-600 text-base' }, this.hotel.area + ', ' + this.hotel.city.name + ', ' + this.hotel.country.name)), h("div", { key: '8b8d664a8e944df664679ad38fed53c37d8f370c', class: "hidden lg:flex flex-row gap-10 items-center text-gray-600 font-semibold" }, h("button", { key: '2ad3f3471c1350d60cad757ee6a32f978a885cca' }, "Booking code"), h("button", { key: 'aada0942130c11c48304db48d70bcc5cfe09a25e' }, "$"), h("button", { key: 'b44a8a40fb6a1a4bda58e7e28c70e6830cc90f19' }, "English"), h("button", { key: '735991133aa10b00af6093991f3560a3ea1997a3' }, "Sign in"))));
+        return (h("nav", { key: '1849b5090fd7e5b38e7852653673fc23f53322cc', class: "flex flex-row justify-between px-4 lg:px-20 xl:px-60 py-3 fixed top-0 left-0 w-full bg-white z-10" }, h("div", { key: 'acc6f08cac252b057413cd73b59f12d25c8edce5', class: 'flex flex-col' }, h("div", { key: '4be237595a660cf736741fc0072d0b34862523ec', class: 'font-bold text-xl' }, this.hotel.name), h("small", { key: 'ec2d736fa48271a2e052ba35c4c0b6f03ff6f6d9', class: 'text-gray-600 text-base' }, this.hotel.area + ', ' + this.hotel.city.name + ', ' + this.hotel.country.name)), h("div", { key: 'e615434aa0cdf302ac98f4b41d2ca2ff124aaece', class: "hidden md:flex flex-row gap-10 items-center text-gray-600 font-semibold" }, h("button", { key: '2a049c2f0294e2b2c6a42e5a9a6a2b7b521253a2', class: 'hover:bg-gray-300 p-2 hover:rounded-full' }, "Booking code"), h("button", { key: '1f70b682aecae2a4f28d77f5dbe2345d6d091c66', class: 'hover:bg-gray-300 p-2 hover:rounded-full', onClick: this.show.bind(this) }, this.currency), h("button", { key: '8e5588a13cd8a0b9d3a03f09f5ae902614bd8ae4', class: 'hover:bg-gray-300 p-2 hover:rounded-full', onClick: this.show.bind(this) }, this.language), h("button", { key: '4a63e39abb095d327b3efcb5939a7899418be9af', class: 'hover:bg-gray-300 p-2 hover:rounded-full' }, "Sign in"))));
     }
     get element() { return getElement(this); }
 };
@@ -2077,6 +2095,418 @@ const Photo = class {
     }
     render() {
         return (h("div", { key: 'fb5ca2c8bf2e61714278fa0615afe2d18ebd239f', class: "flex flex-row gap-2 mt-20 mb-10" }, h("div", { key: '8639690fa5e7b4e7468f69f01fafc83f65e5b118', class: "w-full md:w-1/2 h-full" }, h("img", { key: '0e56e860676c4e40680a588de30fe9775cd0727a', src: this.images[0].url, class: "rounded-2xl object-cover w-full h-full" })), h("div", { key: '29f2ed688445b5dd448fbc7e6a8b702440ffbbf0', class: "w-1/2 hidden md:grid grid-cols-2 gap-2 h-full" }, h("img", { key: '971f8feee3f91dcfc24a735596fd3cfad1a50feb', src: this.images[1].url, class: "rounded-2xl object-cover w-full h-26" }), h("img", { key: 'b2d6ed9954587379dd120d57631604778f5c4d9e', src: this.images[2].url, class: "rounded-2xl object-cover w-full h-26" }), h("img", { key: '62d8f0734b23ab337b39756f34cbc60abaad2805', src: this.images[3].url, class: "rounded-2xl object-cover w-full h-26" }), h("img", { key: '74aebc8249ab681271d8308e615d63005806435e', src: this.images[4].url, class: "rounded-2xl object-cover w-full h-26" }))));
+    }
+    get element() { return getElement(this); }
+};
+
+const languages = [
+    {
+        "code": "EN",
+        "culture": "en-GB",
+        "description": "English",
+        "direction": "LTR",
+        "entries": null,
+        "flag": "https://flaglog.com/img/unitedstates1960.png",
+        "id": 2
+    },
+    {
+        "code": "FR",
+        "culture": "fr-FR",
+        "description": "Français",
+        "direction": "LTR",
+        "entries": null,
+        "flag": "https://flaglog.com/img/france1794.png",
+        "id": 3
+    },
+    {
+        "code": "AR",
+        "culture": "ar-SA",
+        "description": "العربية",
+        "direction": "RTL",
+        "entries": null,
+        "flag": "https://flaglog.com/img/saudiarabia1984.png",
+        "id": 4
+    },
+    {
+        "code": "RU",
+        "culture": "ru-RU",
+        "description": "Русский",
+        "direction": "LTR",
+        "entries": null,
+        "flag": "https://flaglog.com/img/russia1705.png",
+        "id": 7
+    },
+    {
+        "code": "EL",
+        "culture": "el-GR",
+        "description": "Ελληνικά",
+        "direction": "LTR",
+        "entries": null,
+        "flag": "https://flaglog.com/img/greece1822.png",
+        "id": 8
+    },
+    {
+        "code": "PL",
+        "culture": "pl-PL",
+        "description": "Polski",
+        "direction": "LTR",
+        "entries": null,
+        "flag": "https://flaglog.com/img/poland1916.png",
+        "id": 10
+    },
+    {
+        "code": "DE",
+        "culture": "de-DE",
+        "description": "Deutsch",
+        "direction": "LTR",
+        "entries": null,
+        "flag": "https://flaglog.com/img/germany1949.png",
+        "id": 11
+    },
+    {
+        "code": "UA",
+        "culture": "ua-UA",
+        "description": "Українська",
+        "direction": "LTR",
+        "entries": null,
+        "flag": "https://flaglog.com/img/ukraine1918.png",
+        "id": 12
+    }
+];
+
+const currencies = [
+    {
+        "code": "AED",
+        "id": 1,
+        "symbol": "AED"
+    },
+    {
+        "code": "LBP",
+        "id": 2,
+        "symbol": "LBP"
+    },
+    {
+        "code": "EUR",
+        "id": 3,
+        "symbol": "€"
+    },
+    {
+        "code": "USD",
+        "id": 4,
+        "symbol": "US$"
+    },
+    {
+        "code": "SAR",
+        "id": 5,
+        "symbol": "SAR"
+    },
+    {
+        "code": "GBP",
+        "id": 9,
+        "symbol": "GBP"
+    },
+    {
+        "code": "EGP",
+        "id": 11,
+        "symbol": "EGP"
+    },
+    {
+        "code": "RUB",
+        "id": 12,
+        "symbol": "RUB"
+    },
+    {
+        "code": "JOD",
+        "id": 14,
+        "symbol": "JOD"
+    },
+    {
+        "code": "RON",
+        "id": 15,
+        "symbol": "RON"
+    },
+    {
+        "code": "QAR",
+        "id": 16,
+        "symbol": "QAR"
+    },
+    {
+        "code": "KWD",
+        "id": 17,
+        "symbol": "KWD"
+    },
+    {
+        "code": "BHD",
+        "id": 18,
+        "symbol": "BHD"
+    },
+    {
+        "code": "OMR",
+        "id": 19,
+        "symbol": "OMR"
+    },
+    {
+        "code": "SYP",
+        "id": 20,
+        "symbol": "SYP"
+    },
+    {
+        "code": "IQD",
+        "id": 21,
+        "symbol": "IQD"
+    },
+    {
+        "code": "VND",
+        "id": 22,
+        "symbol": "VND"
+    },
+    {
+        "code": "CAD",
+        "id": 23,
+        "symbol": "CAD"
+    },
+    {
+        "code": "AUD",
+        "id": 24,
+        "symbol": "AUD"
+    },
+    {
+        "code": "GEL",
+        "id": 25,
+        "symbol": "GEL"
+    },
+    {
+        "code": "GNF",
+        "id": 26,
+        "symbol": "GNF"
+    },
+    {
+        "code": "ALL",
+        "id": 30,
+        "symbol": "ALL"
+    },
+    {
+        "code": "AMD",
+        "id": 31,
+        "symbol": "AMD"
+    },
+    {
+        "code": "ARS",
+        "id": 32,
+        "symbol": "ARS"
+    },
+    {
+        "code": "BGN",
+        "id": 34,
+        "symbol": "BGN"
+    },
+    {
+        "code": "BRL",
+        "id": 37,
+        "symbol": "BRL"
+    },
+    {
+        "code": "BYN",
+        "id": 38,
+        "symbol": "BYN"
+    },
+    {
+        "code": "CNY",
+        "id": 40,
+        "symbol": "CNY"
+    },
+    {
+        "code": "CHF",
+        "id": 41,
+        "symbol": "CHF"
+    },
+    {
+        "code": "CZK",
+        "id": 43,
+        "symbol": "CZK"
+    },
+    {
+        "code": "DKK",
+        "id": 44,
+        "symbol": "DKK"
+    },
+    {
+        "code": "GHS",
+        "id": 46,
+        "symbol": "GHS"
+    },
+    {
+        "code": "HRK",
+        "id": 47,
+        "symbol": "HRK"
+    },
+    {
+        "code": "HUF",
+        "id": 48,
+        "symbol": "HUF"
+    },
+    {
+        "code": "IDR",
+        "id": 49,
+        "symbol": "IDR"
+    },
+    {
+        "code": "ILS",
+        "id": 50,
+        "symbol": "ILS"
+    },
+    {
+        "code": "INR",
+        "id": 51,
+        "symbol": "INR"
+    },
+    {
+        "code": "JPY",
+        "id": 53,
+        "symbol": "JPY"
+    },
+    {
+        "code": "KRW",
+        "id": 55,
+        "symbol": "KRW"
+    },
+    {
+        "code": "MAD",
+        "id": 57,
+        "symbol": "MAD"
+    },
+    {
+        "code": "MDL",
+        "id": 58,
+        "symbol": "MDL"
+    },
+    {
+        "code": "MKD",
+        "id": 59,
+        "symbol": "MKD"
+    },
+    {
+        "code": "MVR",
+        "id": 60,
+        "symbol": "MVR"
+    },
+    {
+        "code": "MXN",
+        "id": 61,
+        "symbol": "MXN"
+    },
+    {
+        "code": "MYR",
+        "id": 62,
+        "symbol": "MYR"
+    },
+    {
+        "code": "NGN",
+        "id": 63,
+        "symbol": "NGN"
+    },
+    {
+        "code": "NOK",
+        "id": 64,
+        "symbol": "NOK"
+    },
+    {
+        "code": "PHP",
+        "id": 67,
+        "symbol": "PHP"
+    },
+    {
+        "code": "PLN",
+        "id": 68,
+        "symbol": "PLN"
+    },
+    {
+        "code": "RSD",
+        "id": 71,
+        "symbol": "RSD"
+    },
+    {
+        "code": "SEK",
+        "id": 74,
+        "symbol": "SEK"
+    },
+    {
+        "code": "SGD",
+        "id": 76,
+        "symbol": "SGD"
+    },
+    {
+        "code": "THB",
+        "id": 77,
+        "symbol": "THB"
+    },
+    {
+        "code": "TRY",
+        "id": 78,
+        "symbol": "TRY"
+    },
+    {
+        "code": "UAH",
+        "id": 79,
+        "symbol": "UAH"
+    },
+    {
+        "code": "ZAR",
+        "id": 82,
+        "symbol": "ZAR"
+    }
+];
+
+const Popup = class {
+    constructor(hostRef) {
+        registerInstance(this, hostRef);
+        this.rf_hide_popup = createEvent(this, "rf_hide_popup", 7);
+        this.rf_send_data = createEvent(this, "rf_send_data", 7);
+        this.languages = languages;
+        this.currencies = currencies;
+        this.language = 'English';
+        this.currency = 'US$';
+        this.index = undefined;
+    }
+    componentDidLoad() {
+        const shadowRoot = this.element.shadowRoot;
+        if (shadowRoot) {
+            const style = document.createElement('style');
+            style.textContent = tailwind;
+            shadowRoot.appendChild(style);
+        }
+    }
+    hide() {
+        this.rf_hide_popup.emit(false);
+    }
+    getLang(lang, i) {
+        this.language = lang;
+        this.index = i;
+    }
+    getCur(event) {
+        this.currency = event.target.value;
+    }
+    send() {
+        this.rf_send_data.emit({ lang: this.language, cur: this.currency });
+    }
+    render() {
+        return (h("div", { key: 'ad3db62c4cc18a3cd4a93b9ac9392423d8dfdfbe', class: "fixed inset-0 flex justify-center items-center z-50" }, h("div", { key: 'b3b9a0b165d95445a078f59e5b7f93896ef21290', class: "absolute inset-0 bg-gray-800 opacity-75" }), h("div", { key: '6b89ee912a1dbef37d2329d3152bd6389f0895c9', class: "bg-white z-10 w-full md:w-3/4 lg:w-1/2 xl:w-1/3 flex flex-col gap-8 p-6 rounded-lg" }, h("div", { key: '223c33b4bd881065b2e3db8b4da3b69cdb8c4513', class: "flex flex-row justify-between" }, h("h1", { key: '969dfa23fbd9ab48baa1d446503747cb71983c2a', class: "text-2xl font-semibold" }, "Display Settings"), h("button", { key: '76f8ae5ed98342b8d7f2986124a4785328034e34', class: "rounded-full hover:bg-gray-200 text-gray-500 font-semibold px-2", onClick: this.hide.bind(this) }, "X")), h("div", { key: '825297e11c94886937392f719594da67fd1f0cb3', class: "grid grid-cols-4 gap-2" }, this.languages.map((l, i) => {
+            return (h("div", { class: {
+                    'flex': true,
+                    'flex-row': true,
+                    'gap-1': true,
+                    'hover:cursor-pointer': true,
+                    'hover:bg-red-200': true,
+                    'rounded-md': true,
+                    'p-1': true,
+                    'bg-red-200': this.index == i ? true : false,
+                }, onClick: this.getLang.bind(this, l.description, i) }, h("div", { class: "rounded-full overflow-hidden w-5 h-5" }, h("img", { src: l.flag, class: "object-cover w-5 h-5" })), h("div", { class: "text-xs" }, l.description)));
+        })), h("div", { key: 'a59003e9d5c465a5eb076259b1b03790a1d907e0', class: "relative w-full" }, h("select", { key: 'df664018a4ec8e76d66692abb752b4c3850c9606', class: "border-2 rounded-md border-gray-400 h-10 w-full outline-none px-3", onChange: this.getCur.bind(this) }, this.currencies.map(c => {
+            return h("option", { value: c.symbol, selected: c.symbol === this.currency }, c.symbol);
+        })), h("label", { key: '66876e148950649cf1731e56949176f56e9976d3', class: "absolute top-0 left-4 text-gray-400 -translate-y-3 bg-white px-1" }, "Currency")), h("div", { key: '74f3bfa55518a3bc6bd19643343c0e91009ccaa1', class: "flex flex-row justify-end gap-4" }, h("button", { key: '49f8c3ea5f1c9f565d0d142fa764f90536656c5b', class: "border-2 border-gray-400 text-gray-400 rounded-full px-2 py-1", onClick: this.hide.bind(this) }, "Cancel"), h("button", { key: '52a7309b81cb981a76255b96f536c1d1e071d7e6', class: "border-2 border-red-800 text-white bg-red-800 rounded-full px-2 py-1", onClick: () => {
+                this.send();
+                this.hide();
+            } }, "Confirm")))));
     }
     get element() { return getElement(this); }
 };
@@ -2101,7 +2531,7 @@ const Rooms = class {
         this.rf_sendId.emit(id);
     }
     render() {
-        return (h("div", { key: '3ddc30a8da9d59d2c93cc2d3c22979b13041049e' }, this.rooms.map((e, i) => {
+        return (h("div", { key: '2245718de6b6b5814fdea8d90a432e94f8add41d' }, this.rooms.map((e, i) => {
             return (h("div", { class: "flex flex-col md:flex-row bg-gray-200 rounded-lg my-4 p-4 gap-4" }, h("div", { class: "rounded-lg overflow-hidden w-full md:w-1/4 h-72 md:h-48 relative hover:cursor-pointer" }, h("rf-carousel", { images: e.images.map(i => {
                     return i.url;
                 }), roomId: i }), h("div", { class: "absolute bottom-0 flex flex-row w-full justify-between px-4 bg-gray-400 bg-opacity-70", onClick: this.sendId.bind(this, i) }, h("div", null, "Max ", e.occupancy_max.adult_nbr), h("div", null, e.size, "m", h("sup", null, "2")), h("div", null, "...more"))), h("div", { class: "w-full md:w-3/4 flex flex-col gap-y-2" }, h("h3", { class: "text-2xl font-semibold" }, e.name), h("div", { class: "flex flex-row gap-x-4" }, e.bedding_setup.map(b => {
@@ -2112,6 +2542,6 @@ const Rooms = class {
     get element() { return getElement(this); }
 };
 
-export { Carousel as rf_carousel, DisplayHotel as rf_display_hotel, Facilities as rf_facilities, Modal as rf_modal, Navbar as rf_navbar, Photo as rf_photo, Rooms as rf_rooms };
+export { Carousel as rf_carousel, DisplayHotel as rf_display_hotel, Facilities as rf_facilities, Modal as rf_modal, Navbar as rf_navbar, Photo as rf_photo, Popup as rf_popup, Rooms as rf_rooms };
 
-//# sourceMappingURL=rf-carousel_7.entry.js.map
+//# sourceMappingURL=rf-carousel_8.entry.js.map

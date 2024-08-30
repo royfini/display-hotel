@@ -1,4 +1,4 @@
-import { R as Rooms, d as defineCustomElement$1 } from './p-70210f3a.js';
+import { R as Rooms, d as defineCustomElement$1 } from './p-7c525739.js';
 
 const RfRooms = Rooms;
 const defineCustomElement = defineCustomElement$1;

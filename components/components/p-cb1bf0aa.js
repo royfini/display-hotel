@@ -1,6 +1,6 @@
 import { p as proxyCustomElement, H } from './p-b4114b3c.js';
 import { h } from './p-8011f781.js';
-import { t as tailwind } from './p-f713899e.js';
+import { t as tailwind } from './p-70ce61d8.js';
 import { d as data } from './p-2240281a.js';
 
 const Photo = /*@__PURE__*/ proxyCustomElement(class Photo extends H {
@@ -40,4 +40,4 @@ defineCustomElement();
 
 export { Photo as P, defineCustomElement as d };
 
-//# sourceMappingURL=p-c5fe848a.js.map
+//# sourceMappingURL=p-cb1bf0aa.js.map

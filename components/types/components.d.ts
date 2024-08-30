@@ -23,6 +23,8 @@ export namespace Components {
     }
     interface RfPhoto {
     }
+    interface RfPopup {
+    }
     interface RfProperty {
     }
     interface RfRooms {
@@ -35,6 +37,14 @@ export interface RfCarouselCustomEvent<T> extends CustomEvent<T> {
 export interface RfModalCustomEvent<T> extends CustomEvent<T> {
     detail: T;
     target: HTMLRfModalElement;
+}
+export interface RfNavbarCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLRfNavbarElement;
+}
+export interface RfPopupCustomEvent<T> extends CustomEvent<T> {
+    detail: T;
+    target: HTMLRfPopupElement;
 }
 export interface RfRoomsCustomEvent<T> extends CustomEvent<T> {
     detail: T;
@@ -93,7 +103,18 @@ declare global {
         prototype: HTMLRfModalElement;
         new (): HTMLRfModalElement;
     };
+    interface HTMLRfNavbarElementEventMap {
+        "rf_show_popup": boolean;
+    }
     interface HTMLRfNavbarElement extends Components.RfNavbar, HTMLStencilElement {
+        addEventListener<K extends keyof HTMLRfNavbarElementEventMap>(type: K, listener: (this: HTMLRfNavbarElement, ev: RfNavbarCustomEvent<HTMLRfNavbarElementEventMap[K]>) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLRfNavbarElementEventMap>(type: K, listener: (this: HTMLRfNavbarElement, ev: RfNavbarCustomEvent<HTMLRfNavbarElementEventMap[K]>) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
     }
     var HTMLRfNavbarElement: {
         prototype: HTMLRfNavbarElement;
@@ -104,6 +125,24 @@ declare global {
     var HTMLRfPhotoElement: {
         prototype: HTMLRfPhotoElement;
         new (): HTMLRfPhotoElement;
+    };
+    interface HTMLRfPopupElementEventMap {
+        "rf_hide_popup": boolean;
+        "rf_send_data": { lang: string; cur: string };
+    }
+    interface HTMLRfPopupElement extends Components.RfPopup, HTMLStencilElement {
+        addEventListener<K extends keyof HTMLRfPopupElementEventMap>(type: K, listener: (this: HTMLRfPopupElement, ev: RfPopupCustomEvent<HTMLRfPopupElementEventMap[K]>) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
+        addEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLRfPopupElementEventMap>(type: K, listener: (this: HTMLRfPopupElement, ev: RfPopupCustomEvent<HTMLRfPopupElementEventMap[K]>) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof DocumentEventMap>(type: K, listener: (this: Document, ev: DocumentEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener<K extends keyof HTMLElementEventMap>(type: K, listener: (this: HTMLElement, ev: HTMLElementEventMap[K]) => any, options?: boolean | EventListenerOptions): void;
+        removeEventListener(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void;
+    }
+    var HTMLRfPopupElement: {
+        prototype: HTMLRfPopupElement;
+        new (): HTMLRfPopupElement;
     };
     interface HTMLRfPropertyElement extends Components.RfProperty, HTMLStencilElement {
     }
@@ -136,6 +175,7 @@ declare global {
         "rf-modal": HTMLRfModalElement;
         "rf-navbar": HTMLRfNavbarElement;
         "rf-photo": HTMLRfPhotoElement;
+        "rf-popup": HTMLRfPopupElement;
         "rf-property": HTMLRfPropertyElement;
         "rf-rooms": HTMLRfRoomsElement;
     }
@@ -157,8 +197,13 @@ declare namespace LocalJSX {
         "roomId"?: number;
     }
     interface RfNavbar {
+        "onRf_show_popup"?: (event: RfNavbarCustomEvent<boolean>) => void;
     }
     interface RfPhoto {
+    }
+    interface RfPopup {
+        "onRf_hide_popup"?: (event: RfPopupCustomEvent<boolean>) => void;
+        "onRf_send_data"?: (event: RfPopupCustomEvent<{ lang: string; cur: string }>) => void;
     }
     interface RfProperty {
     }
@@ -173,6 +218,7 @@ declare namespace LocalJSX {
         "rf-modal": RfModal;
         "rf-navbar": RfNavbar;
         "rf-photo": RfPhoto;
+        "rf-popup": RfPopup;
         "rf-property": RfProperty;
         "rf-rooms": RfRooms;
     }
@@ -188,6 +234,7 @@ declare module "@stencil/core" {
             "rf-modal": LocalJSX.RfModal & JSXBase.HTMLAttributes<HTMLRfModalElement>;
             "rf-navbar": LocalJSX.RfNavbar & JSXBase.HTMLAttributes<HTMLRfNavbarElement>;
             "rf-photo": LocalJSX.RfPhoto & JSXBase.HTMLAttributes<HTMLRfPhotoElement>;
+            "rf-popup": LocalJSX.RfPopup & JSXBase.HTMLAttributes<HTMLRfPopupElement>;
             "rf-property": LocalJSX.RfProperty & JSXBase.HTMLAttributes<HTMLRfPropertyElement>;
             "rf-rooms": LocalJSX.RfRooms & JSXBase.HTMLAttributes<HTMLRfRoomsElement>;
         }
