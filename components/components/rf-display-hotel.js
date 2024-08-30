@@ -6,7 +6,7 @@ import { d as defineCustomElement$7 } from './p-3fc9ba92.js';
 import { d as defineCustomElement$6 } from './p-316d5947.js';
 import { d as defineCustomElement$5 } from './p-1f5f91b7.js';
 import { d as defineCustomElement$4 } from './p-fc1a0859.js';
-import { d as defineCustomElement$3 } from './p-5485875f.js';
+import { d as defineCustomElement$3 } from './p-b9aab51d.js';
 import { d as defineCustomElement$2 } from './p-55bf82af.js';
 
 const DisplayHotel = /*@__PURE__*/ proxyCustomElement(class DisplayHotel extends H {
